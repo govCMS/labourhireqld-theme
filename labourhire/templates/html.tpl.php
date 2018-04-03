@@ -18,16 +18,12 @@
   <title>
   
   <?php  
-
 if (drupal_is_front_page()) {
     ?>Home | Labour hire licensing Queensland<?php
 }
-
     else{
   print $head_title; 
 }
-
-
   ?></title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -40,7 +36,6 @@ if (drupal_is_front_page()) {
     ?> <meta name="Labour hire licensing Queensland" content="Labour hire licensing Queensland, managed by the Office of Industrial Relations, Queensland Government, is the official site for the regulation of the labour hire industry in Queensland">
     <meta name="description" content=" labour hire; labour hire licencing act 2017; laws; legislation; Queensland"><?php
 }
-
   ?>
 <meta http-equiv="cleartype" content="on">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -51,13 +46,10 @@ if (drupal_is_front_page()) {
 
 
 <?php 
-
 //if (drupal_is_front_page()) {
-
 $themepath = base_path() . path_to_theme();
 $jspath = $themepath . '/js/jquery-1.9.min.js';
 $owlpath = $themepath . '/js/owl.carousel.min.js';
-
 ?>
 
 <script src="https://code.jquery.com/jquery-1.10.1.js" integrity="sha256-663tSdtipgBgyqJXfypOwf9ocmvECGG8Zdl3q+tk+n0=" crossorigin="anonymous"></script>
