@@ -42,7 +42,7 @@ print render($page['temporaryhomepage']);
 
 		<div class="row" style="margin-left:0px !important;">
 			  <div class="w3-half" style="margin-bottom:10px">
-			 <a href="https://oiraccportal.microsoftcrmportals.com/SignIn" style="color:black"> 
+			 <a href="https://ols.oir.qld.gov.au/SignIn?" style="color:black"> 
 <button class="w3-button lh_buttons w3-round-large" style="background:#f2e3cb">
 			  <span class="glyphicon glyphicon-pencil lh_glypicon_dark" aria-hidden="true">
 			  </span>
@@ -53,7 +53,7 @@ print render($page['temporaryhomepage']);
 			  
 			  
 			 <div class="w3-half" style="margin-bottom:10px">
-			  <a href="https://oiraccportal.microsoftcrmportals.com/licence-register/" class="lh_glyph_fal" style="color:#fff"> <button class="w3-button lh_buttons  w3-round-large" style="background:#000">
+			  <a href="https://ols.oir.qld.gov.au/licence-register/search/" class="lh_glyph_fal" style="color:#fff"> <button class="w3-button lh_buttons  w3-round-large" style="background:#000">
 			  <span class="glyphicon glyphicon-search lh_glypicon" aria-hidden="true"></span>
 			  <span class="glyphtext">Find a licensed labour hire service</span>
 			   </button></a></div>
@@ -74,7 +74,7 @@ print render($page['temporaryhomepage']);
 			  <span class="glyphtext">Subscribe to the labour hire newsletter</span>
 			   </button></a></div>
 		</div>
- <div class="row" style="margin-left:0px !important"><p style="float:left;vertical-align:bottom;font-weight:bold "><a href="https://oiraccportal.microsoftcrmportals.com/" style="text-decoration:none;color:#000">Online services</a></p></div>
+ <div class="row" style="margin-left:0px !important"><p style="float:left;vertical-align:bottom;font-weight:bold "><a href="https://www.labourhire.qld.gov.au/online-services" style="text-decoration:none;color:#000">Online services</a></p></div>
 
 			
           </div><!-- end w3 container -->

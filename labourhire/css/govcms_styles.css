@@ -212,6 +212,8 @@ a.nounderline:hover{
 	text-decoration:none !important;
 }
 
+
+
 /* ==========================================================================
    Typography
 
@@ -1076,6 +1078,20 @@ html.js .collapsed .fieldset-legend {
   padding-left: 15px;
   padding-bottom: 2px;
 }
+
+#block-menu-block-govcms-menu-block-sidebar > h2 > a,#block-menu-block-govcms-menu-block-sidebar > h2 > a:hover, #block-menu-block-govcms-menu-block-sidebar > h2 > a:active, #block-menu-block-govcms-menu-block-sidebar > h2 > a:visited{
+	color:white !important;
+	text-decoration:none !important;
+}
+
+#block-menu-block-govcms-menu-block-sidebar > div > div > ul > li.active> a{
+	text-indent: 20px;
+    font-weight: bold;
+    background: #a6d4d6;
+}
+
+
+
 
  .menu-block-govcms_menu_block-sidebar .menu > li > ul >li {
    /* padding-left: 20px;*/
