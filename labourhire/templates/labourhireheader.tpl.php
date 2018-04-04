@@ -32,15 +32,9 @@ $113( ".show_report" ).click(function() {
   
   
 });
-
-
 $113(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();   
 });
-
-
-
-
 	
 	
 	

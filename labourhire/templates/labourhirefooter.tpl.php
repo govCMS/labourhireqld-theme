@@ -1,11 +1,15 @@
 
+
+
+
+
  <footer id="footer" class="<?php print $classes; ?>">
 <div id="feedback_row" class="w3-row">
 <div class="container w3-half">
-  <a href="#text3" class="w3-btn w3-govblue">Feedback</a>
+  <a href="#text3" class="w3-btn w3-govblue" style="font-weight:bold">Feedback</a>
 </div>
 <div class="container w3-half">
-<a href="/contact-us" class="w3-btn w3-govblue pull-right">Connect with us <span class="glyphicon glyphicon-envelope lh_footer_envelope" aria-hidden="true" ></span></a> 
+<a href="/contact-us" class="w3-btn w3-govblue pull-right"  style="font-weight:bold">Connect with us <span class="glyphicon glyphicon-envelope lh_footer_envelope" aria-hidden="true" ></span></a> 
 </div>
 </div>
 <div id="labourhirefooterlinks">
@@ -24,7 +28,7 @@ function googleTranslateElementInit() {
  print theme('links__menu-footer-labour-hire', array('links' => $footermain_menu )); ?>
 <div class="gov_links">&copy;  The State of Queensland 2018
 <br>
-<p><a href="http://www.qld.gov.au/" accesskey="1">Queensland Government</a></p>
+<p><a href="http://www.qld.gov.au/" accesskey="1" style="color:#fff;text-decoration:none;">Queensland Government</a></p>
 </div>
 </div>
 
@@ -46,10 +50,10 @@ function googleTranslateElementInit() {
         <p class="title"></p>
         <div class="content">
            
-<p id="dialog-title">Is your feedback about:</p>
-<ul style="list-style-type: circle;" >
+<h3 id="dialog-title" class="field-name-field-subtitle">Is your feedback about:</h3>
+<ul class="indented" style="list-style-type: circle;" >
 <li><a href="#text" class="lh_feedback_link">this website </a></li>
-<br><br>
+<br>
 <li><a href="#text2" class="lh_feedback_link">a labour hire licensing general enquiry or problem? </a></li>
         </div>
     </div>
@@ -86,7 +90,14 @@ function googleTranslateElementInit() {
         </div>
     </div>
 </div>
+<script>
 
+$113(document).ready(function(){
+    $113('.lightbox').draggable();
+	alert('pop');
+});
+
+</script>
 
 
 
