@@ -42,7 +42,7 @@ print render($page['temporaryhomepage']);
 
 		<div class="row" style="margin-left:0px !important;">
 			  <div class="w3-half" style="margin-bottom:10px">
-			 <a href="https://ols.oir.qld.gov.au/SignIn?" style="color:black"> 
+			 <a href="https://ols.oir.qld.gov.au/signin/" style="color:black"> 
 <button class="w3-button lh_buttons w3-round-large" style="background:#f2e3cb">
 			  <span class="glyphicon glyphicon-pencil lh_glypicon_dark" aria-hidden="true">
 			  </span>
