@@ -24,6 +24,8 @@ function labourhire_preprocess_html(&$vars) {
  */
 function labourhire_form_search_block_form_alter(&$form, &$form_state, $form_id) {
 	$form['search_block_form']['#attributes']['placeholder'] = t('Search'); 
+	$form['actions']['submit']['#value'] = t(''); // Change the text on the submit button
+	
 } 
 
 
