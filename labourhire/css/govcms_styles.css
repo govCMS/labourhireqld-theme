@@ -1174,14 +1174,14 @@ div.owl-item > div > i:hover{
 
 /* second level sidebar nav */
 #block-menu-block-govcms-menu-block-sidebar > div > div > ul > li > ul > li.active-trail.active > a {
-	text-indent:20px;
+	
 	font-weight:bold;
 	 background: #a6d4d6;
 }
 
 
 #block-menu-block-govcms-menu-block-sidebar > div > div > ul > li > ul > li > a {
-	text-indent:20px;
+	padding-left:32px;
 }
 
 
@@ -1189,7 +1189,7 @@ div.owl-item > div > i:hover{
 
 /* third level sidebar nav */
 #block-menu-block-govcms-menu-block-sidebar > div > div > ul > li > ul > li > ul > li > a {
-	text-indent:35px;
+	padding-left:35px;
 	
 }
 
@@ -3693,7 +3693,7 @@ h3.lh_services{
         }
 
 
-        .lightbox2 {
+    .lightbox2 {
     /** Hide the lightbox */
     display: none;
     /** Apply basic lightbox styling */
@@ -3701,10 +3701,12 @@ h3.lh_services{
     z-index: 9999;
     max-width:350px;
     height: 100%;
-    top: 0;
-    left: 0;
+    top: 30%;
+    left: 30%;
     color:#333333;
 	border-radius:20px;
+	margin-left:auto;
+	margin-right:auto;
     }
 
 
@@ -4088,12 +4090,126 @@ background: #f2e3cb;
 
 
 
-@media (max-width:360px){
+@media (max-width:375px){
 	
+	.lh_help_menu{
+		
+		
+	}
+	.header__secondary-menu{
+		float:left;
+		max-width:375px;
+	}
 	
+	.header__site-slogan{
+			font-size:14px;
+	}
+	.header{
+		min-height:200px;
+	}
 	
+	#myForm{
+		position: relative;
+		top: -55px;
+	}
+	#block-search-api-page-default-search{
+		margin-right:10px;
+		font-size;10px;
+	}
+	.edit-submit{
+		float:left;
+	}
+	#edit-search-block-form--2{
+		width:80%;
+	}
 	
+	select#tinynav1 {
+    max-width: 80%;
+	}
+	
+	.lh_buttons {
+    width: 100%;
+    height: 75px;
+	}
+	
+	.glyphtext{
+		font-size: 1em;
+	}
+	
+	ul.links{
+		clear:both;
+		text-align:left;
+	}
+	ul.links > li{
+		
+		display:block;
+	} 
+	
+	#labourhirefooterlinks > ul {
+    display: block;
+    text-align: left;
+	}
+	
+	#labourhirefooterlinks > ul > li {
+    position: relative;
+    display: block;
+    padding: 5px;
+    font-size: 0.9em;
 }
+	#connect-us-footer{
+		width:100%;
+	}
+	
+	#block-search-form{
+		width:90%;
+		margin-bottom:10px;
+		
+	}
+	#clockdiv{
+		    margin-top: 100px;
+	}
+	
+	#lh-iwantto{
+		margin-top:100px;
+	}
+	
+	#clockdiv > div {
+    padding: 12px;
+    border-radius: 3px;
+    background: #f2e3cb;
+    display: inline-block;
+	}
+	
+	#clockdiv div > span {
+    padding: 10px;
+    border-radius: 3px;
+    background: #000;
+    display: inline-block;
+    color: #fff;
+	}
+	.smalltext {
+		padding-top: 5px;
+		font-size: 12px;
+	}
+	.glyphicon.glyphicon-edit.lh_glypicon.lh_shift {
+			margin-top:1px;
+			
+	}
+	.glyphtext{
+		padding-left:5px;
+	}
+	.reportrow{
+		margin-bottom:3px;
+		margin-top:5px !important;
+	
+	}
+	
+	.reportcell{
+		margin-bottom:10px;
+	}
+	
+}/*** end media query 375 ***/
+
 
 
 @media (min-width:1300px){
