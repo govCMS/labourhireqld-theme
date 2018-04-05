@@ -37,7 +37,7 @@ print render($page['temporaryhomepage']);
 </div><!-- end lh_home_carousel -->
         </div><!-- end container -->
 <div class="w3-container w3-third" style="margin-top:10px;">
-<div class="row" style="margin-left:0px !important"><h2 style="float:left;">I want to</h2></div>
+<div class="row" style="margin-left:0px !important" id="lh-iwantto"><h2 style="float:left;">I want to</h2></div>
 
 
 		<div class="row" style="margin-left:0px !important;">
@@ -59,11 +59,11 @@ print render($page['temporaryhomepage']);
 			   </button></a></div>
 		</div>
 		
-		<div class="row" style="margin-left:0px !important;margin-top: 10px;">
-			  <div class="w3-half">
+		<div class="row reportrow" style="margin-left:0px !important;">
+			  <div class="w3-half reportcell">
 			  <a href="/report-a-problem" style="color:black"> <button class="w3-button w3-teal lh_buttons w3-round-large">
 			  <span class="glyphicon glyphicon-edit lh_glypicon lh_shift" aria-hidden="true"></span>
-			  <span class="glyphtext">Report a problem</span>
+			  <span class="glyphtext lh-report">Report a problem</span>
 			   </button></a>
 		</div>
 			  

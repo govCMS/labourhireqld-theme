@@ -8,8 +8,8 @@
 <div class="container w3-half">
   <a href="#text3" class="w3-btn w3-govblue" style="font-weight:bold">Feedback</a>
 </div>
-<div class="container w3-half">
-<a href="/contact-us" class="w3-btn w3-govblue pull-right"  style="font-weight:bold">Connect with us <span class="glyphicon glyphicon-envelope lh_footer_envelope" aria-hidden="true" ></span></a> 
+<div class="container w3-half" >
+<a href="/contact-us" class="w3-btn w3-govblue pull-right" id="connect-us-footer" style="font-weight:bold">Connect with us <span class="glyphicon glyphicon-envelope lh_footer_envelope" aria-hidden="true" ></span></a> 
 </div>
 </div>
 <div id="labourhirefooterlinks">
