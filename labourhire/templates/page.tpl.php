@@ -150,6 +150,7 @@ else{
 	  
        print render($page['content']);
        print render($page['contactbelowform']);
+	  
 
  if(($pathway[1]== 'manage-subscription') AND $pathway[2] !='confirmation' ){
 		  ?>
@@ -161,7 +162,9 @@ else{
 
 	  if(($pathway[1]=='unsubscribe') AND $pathway[2] !='confirmation' ){
 		  ?>
-	<script language="JavaScript" type="text/javascript" charset="utf-8" src="https://www.vision6.com.au/em/forms/unsubscribe.php?db=598177&s=248440&a=15149&k=92228c7"></script>
+	<!-- Web Form Code -->
+<script language="JavaScript" type="text/javascript" charset="utf-8" src="https://www.vision6.com.au/em/forms/unsubscribe.php?db=598177&amp;s=248440&amp;a=15149&amp;k=92228c7&amp;emb=1"></script>
+
 		  <?php
 	  }
 	  
