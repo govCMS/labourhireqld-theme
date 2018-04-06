@@ -3814,6 +3814,17 @@ a.lh_feedback_link{
  min-width:300px;
  }   
 
+ 
+.region-relatedlinks{
+ border: 1px solid #607D8A;
+ border-left: 15px solid #607D8A;
+ margin-top: 20px;
+ padding:10px;
+ min-width:300px;
+ } 
+ 
+ 
+
 #front-content > div.w3-row-padding > div.w3-container.w3-twothird.lh-carousel-container{
   
  }
