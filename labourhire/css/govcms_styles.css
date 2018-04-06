@@ -4309,6 +4309,7 @@ background: #f2e3cb;
    ========================================================================== */
 
 
+
 .region-sidebar-second{
 	background:#F3F3F3;
 }
@@ -4324,6 +4325,7 @@ background: #f2e3cb;
 
 .show_report{
 	text-decoration:underline;
+	color:#23527c;
 }
 
 .show_report:focus ~ .anon_report {
