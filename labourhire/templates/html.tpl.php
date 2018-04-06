@@ -25,6 +25,7 @@ if (drupal_is_front_page()) {
   print $head_title; 
 }
   ?></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
   <?php if ($default_mobile_metatags): ?>
@@ -82,36 +83,22 @@ $owlpath = $themepath . '/js/owl.carousel.min.js';
     <![endif]-->
   <?php endif; ?>
 
+<!-- Facebook Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
 n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
 document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '842402095852856'); // Work Safe Home Safe pixel
-fbq('init', '1460593107586147'); // Safety Switch pixel
-fbq('init', '464073050437696'); // WorkCover pixel
-fbq('init', '362065224195208'); // SWARTWAwards pixel
+fbq('init', '362065224195208'); // Safety Switch pixel
 fbq('track', 'PageView');
 </script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=842402095852856&ev=PageView&noscript=1"
-/>
 <img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=1460593107586147&ev=PageView&noscript=1"
 />
-<img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=464073050437696&ev=PageView&noscript=1"
-/>
-<img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=362065224195208&ev=PageView&noscript=1"
-/></noscript>
-
+<!-- DO NOT MODIFY -->
 <!-- End Facebook Pixel Code -->
-<!-- TEMP -->
 
-
-<!-- END TEMP -->
 
 
 
