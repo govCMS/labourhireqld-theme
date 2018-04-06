@@ -103,7 +103,7 @@ switch($pathway[0]){
 <?php 
 } //end if not news media type
 
-if($page['righthandsidelinks']){
+if(($page['righthandsidelinks']) || ($page['relatedlinks'])){
 	$maxwidth="max-width:650px";
 }
 elseif((!$sidebar_first) AND (!$sidebar_second ) AND (!$page['righthandsidelinks']) AND (!$page['relatedlinks']) AND ($pathway[0] != 'legal-statements') AND ($pathway[0] !='legal') AND ($pathway[0] !='help') AND ($pathway[0] !='contact-us')) {
@@ -179,6 +179,7 @@ if($node->type == 'media_release'){
   <?php
         
          print render($page['righthandsidelinks']);
+		   print render($page['relatedlinks']);
   ?>
   </aside>
   
@@ -186,7 +187,8 @@ if($node->type == 'media_release'){
   </div><!-- end main -->
   <div> <!-- end page -->
 <?php
-  print render($page['relatedlinks']);
+
+
 
  ?>
 
