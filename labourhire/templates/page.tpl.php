@@ -151,17 +151,25 @@ else{
        print render($page['content']);
        print render($page['contactbelowform']);
 
- if(($pathway[1]== 'manage-subscription' || $pathway[1]=='unsubscribe') AND $pathway[2] !='confirmation' ){
+ if(($pathway[1]== 'manage-subscription') AND $pathway[2] !='confirmation' ){
 		  ?>
 		  <!-- Web Form Code -->
 <script language="JavaScript" type="text/javascript" charset="utf-8" src="https://www.vision6.com.au/em/forms/update_profile.php?db=598177&amp;s=248439&amp;a=15149&amp;k=22aa7b0&amp;emb=1"></script>
 
 		  <?php 
-	  }	   
+	  }	
+
+	  if(($pathway[1]=='unsubscribe') AND $pathway[2] !='confirmation' ){
+		  ?>
+	<script language="JavaScript" type="text/javascript" charset="utf-8" src="https://www.vision6.com.au/em/forms/unsubscribe.php?db=598177&s=248440&a=15149&k=92228c7"></script>
+		  <?php
+	  }
+	  
       ?>
 
     </div><!-- end content -->
 
+	
 <?php 
 if($node->type == 'media_release'){
       ?>
