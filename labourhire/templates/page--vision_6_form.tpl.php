@@ -19,7 +19,7 @@
  
 
     ?>
-    <aside class="sidebars" role="complementary">
+      <aside class="sidebars lh_no_print" role="complementary">
     <?php if ($sidebar_first || $sidebar_second) {?>
   
         <?php print $sidebar_second; ?>
@@ -32,7 +32,7 @@
 </aside>
 
 
-    <div id="content" class="column" role="main">
+    <div id="content" class="column" role="main" style="max-width:600px">
 
       <a href="#skip-link" id="skip-content" class="element-invisible">Go to top of page</a>
 
@@ -72,7 +72,7 @@ Required fields are marked with an asterisk ( * ).
     
 
   </div>
-<div>
+ <aside class="sidebars lh_rightcol lh_no_print" role="complementary">
 <?php
   print render($page['relatedlinks']);
  ?>
