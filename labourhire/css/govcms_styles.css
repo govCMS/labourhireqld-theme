@@ -3906,8 +3906,15 @@ h3.iam_homepage_title > a:hover{
 
 .sitewide{
   margin-top:0px !important ;margin-bottom:0px !important;
+  max-width:1280px;
+  margin-left:auto;
+  margin-right:auto
+  
 }
-
+.region-labourhirealerts{
+  background:#E0FFDE;
+  border-color: #4CAF50!important;
+}
 .lh_aside_links{
   padding-bottom:10px;
 }
