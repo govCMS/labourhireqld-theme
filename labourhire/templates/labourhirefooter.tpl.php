@@ -4,7 +4,7 @@
   <a href="#text3" class="w3-btn w3-govblue" style="font-weight:bold;border:1px solid #fff;border-radius:5px">Feedback</a>
 </div>
 <div class="container w3-half" >
-<a href="/contact-us" class="w3-btn w3-govblue pull-right" id="connect-us-footer" style="font-weight:bold">Connect with us <span class="glyphicon glyphicon-envelope lh_footer_envelope" aria-hidden="true" ></span></a> 
+<a href="/resources/subscribe" class="w3-btn w3-govblue pull-right" id="connect-us-footer" style="font-weight:bold">Connect with us <span class="glyphicon glyphicon-envelope lh_footer_envelope" aria-hidden="true" ></span></a> 
 </div>
 </div>
 <div id="labourhirefooterlinks">
