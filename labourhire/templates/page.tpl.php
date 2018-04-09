@@ -18,7 +18,7 @@
   ?>
 
   <?php 
-  
+
   print $breadcrumb; 
 
   ?>
@@ -117,8 +117,8 @@ else{
 
     <div id="content" class="column" role="main" style="<?php echo $maxwidth; ?>">
 	
-	<a class="print-link pull-right" onclick="printLHPage();" style="">Print</a>
-	<a class="print-link pull-right" onclick="printLHPage();">
+	<a class="print-link pull-right lh_print_icon" onclick="printLHPage();" style="cursor:pointer">Print</a>
+	<a class="print-link pull-right lh_print_icon" style="cursor:pointer" onclick="printLHPage();">
 	<span class="glyphicon glyphicon-print pull-right" style="margin-right:-10px;">&nbsp;</span></a>
     <a href="#skip-link" id="skip-content" class="element-invisible">Go to top of page</a>
 
@@ -168,6 +168,8 @@ else{
 		  <?php
 	  }
 	  
+
+	  
       ?>
 
     </div><!-- end content -->
@@ -190,7 +192,7 @@ if($node->type == 'media_release'){
   <?php
         
          print render($page['righthandsidelinks']);
-		   print render($page['relatedlinks']);
+		 print render($page['relatedlinks']);
   ?>
   </aside>
   

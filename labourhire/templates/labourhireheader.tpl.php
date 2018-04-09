@@ -77,16 +77,16 @@ if($page['labourhirealerts']){ print render($page['labourhirealerts']);} ?>
       </div>
     <?php endif; ?>
 
-<header class="header" id="header" role="banner">
+<header class="header lh_no_print" id="header" role="banner">
   <div class="header__inner">
  
 
 
-<div class="header__region region region-header">
+<div class="header__region region region-header lh_no_print">
 <div id="block-search-api-page-default-search" class="block block-search-api-page last even" style="">    
-  <div class="block__content">
+  <div class="block__content lh_search_block">
 
-<form id="myForm">Search
+<form id="myForm" class="lh_no_print">Search
 <input type="radio" name="myRadio" value="SearchThisSite" /> this website
 <input type="radio" name="myRadio" value="SearchAllGov" /> all Queensland Government
 </form>
@@ -101,8 +101,10 @@ if($page['labourhirealerts']){ print render($page['labourhirealerts']);} ?>
 
 
 
+
+
      
-        <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="header__logo" id="logo">
+        <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="header__logo nounderline" id="logo">
           <img src="<?php print '/' . path_to_theme(); ?>/qg-coa-white.png" alt="<?php print t('Home'); ?>" class="header__logo-image" style="margin-top:-50px;" />
 <br><h4 class="header__site-slogan" style=""><?php print $site_name;?></h4>
         </a>
@@ -113,6 +115,7 @@ if($page['labourhirealerts']){ print render($page['labourhirealerts']);} ?>
   </div><!-- header inner -->
 
 </header>
+<div class="printHeaderlogo"><img src="<?php print '/' . path_to_theme(); ?>/qld-crest-on-top-2linestacked-b-w.jpg" class="imgprintHeaderlogo"></div>
 
 <?php print render($page['navigation']); ?>
 </div>
