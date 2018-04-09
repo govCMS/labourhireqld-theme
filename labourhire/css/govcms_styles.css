@@ -4308,7 +4308,9 @@ background: #f2e3cb;
 
 
 
-
+.printHeaderlogo{
+	display:none;
+}
 
 
 /* ==========================================================================
@@ -4318,6 +4320,26 @@ background: #f2e3cb;
 @media print{
 	
 	.lh_no_print{
+		display:none !important;
+	}
+	
+	.printHeaderlogo{
+		display: inline;
+		
+	}
+	.imgprintHeaderlogo{
+		width:94px;
+		height:118px;
+		text-align:center;
+	}
+	
+	.sitewide{
+		display:none;
+	}
+	.lh_print_icon{
+		display:none;
+	}
+	.breadcrumb{
 		display:none !important;
 	}
 }
