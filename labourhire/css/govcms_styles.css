@@ -4319,6 +4319,9 @@ background: #f2e3cb;
 
 @media print{
 	
+	
+	
+	
 	.lh_no_print{
 		display:none !important;
 	}
@@ -4339,9 +4342,17 @@ background: #f2e3cb;
 	.lh_print_icon{
 		display:none;
 	}
-	.breadcrumb{
-		display:none !important;
+	.breadcrumb::before{
+		content:"Home >" !important;
 	}
+	
+.region-navigation{
+	display:none !important;
+}
+ 
+ 
+	
+	
 }
 
 /* ==========================================================================
@@ -4366,6 +4377,7 @@ background: #f2e3cb;
 .show_report{
 	text-decoration:underline;
 	color:#23527c;
+	cursor: pointer;
 }
 
 .show_report:focus ~ .anon_report {
