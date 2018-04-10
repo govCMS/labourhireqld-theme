@@ -1998,11 +1998,15 @@ form#sweaver-frontend > div {
   padding: 0;
   font-style: italic;
 }
+ 
+#edit-keys-2{ 
+		border: 1px solid #ccc!important;
+}
+
 
 .search-form {
   padding: 15px;
-  background-color: #f3f3f3;
-  border-top: solid 3px #7a797a;
+ border:none;
 }
 .search-form:after {
   content: "";
@@ -4398,5 +4402,9 @@ ol.lh_alpha {
 
 ul.lh_alpha {
     list-style-type: lower-alpha;
+}
+
+#search-form{
+	display:none !important;
 }
 
