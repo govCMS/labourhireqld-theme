@@ -358,7 +358,34 @@ function labourhire_file_link($variables) {
     $options ['attributes']['title'] = check_plain($file->filename);
   }
 
-  return '<span class="file">' . $icon . ' ' . l($link_text, $url, $options) . '</span>';
+  $formattedFileSize = round($file->filesize/10000,2);
+  
+  return '<span class="file">' . $icon . ' ' . l($link_text, $url, $options) . ' ('. $file->filemime .', ' . $formattedFileSize.' KB)</span>';
+} ///end labourhire link
+
+
+function hook_xmlsitemap_link_alter(array &$link, array $context) {
+  // Get node/[:id] from loc.
+  $node_id = $link['loc'];
+  // Condition to check for a particular nid.
+  if ($node_id == 'node/[301]') {  // [:id] is the desired nid to remove.
+    // Status is set to zero to exclude the item in the sitemap.
+    $link['status'] = 0;
+    // Set to zero to make the element non-accessible by the anonymous user.
+    $link['access'] = 0;
+  }
+ }
+
+ function labourhire_preprocess_search_result(&$vars) {
+	 
+
+  $vars['info'] = "";
+ 
+  $vars['info'] = $vars['info_split']['date'];
+  
 }
+
+
+
 
 
