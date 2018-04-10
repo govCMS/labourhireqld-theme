@@ -4404,5 +4404,7 @@ ul.lh_alpha {
     list-style-type: lower-alpha;
 }
 
-
+.form-text{
+	    border: 1px solid #ccc!important;
+}
 
