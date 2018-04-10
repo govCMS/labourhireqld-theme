@@ -4392,6 +4392,8 @@ caption{
 	margin-top:-38px;
 }
 
-
+ol.lh_alpha {
+    list-style-type: lower-alpha;
+}
 
 
