@@ -41,7 +41,7 @@ if ($variables['node']->type == 'vision_6_form') {
   }
 
 
-/** this code gets content for home page carousel not ideal but works**/  
+/** content for home page carousel**/  
 $outputstring ='';
 $output = '<div id="owl-demo" class="owl-carousel">';
 
