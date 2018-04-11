@@ -1090,6 +1090,10 @@ html.js .collapsed .fieldset-legend {
     background: #a6d4d6;
 }
 
+.field-label{
+	display:none;
+}
+
 
 
 
@@ -4108,6 +4112,56 @@ background: #f2e3cb;
   .view-search form .views-submit-button input {
     clear: none;
   }
+}
+
+/* Portrait iPad and tablets */
+@media only screen 
+  and (min-device-width: 767px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+		
+		.w3-col.m6, .w3-half {
+			width: unset !important;
+		}
+		
+		.lh_buttons {
+			width: 220px;
+			height: 75px;
+		}
+		
+		.glyphtext {
+			font-size: 16px;
+
+		}
+		.glyphicon {
+			font-size:14px;
+		}
+		.reportcell{
+			margin-bottom:10px;
+		}
+		
+		.lh_shift{
+			margin-top:unset !important;
+		}
+		
+		.iam_paragraph{
+			overflow:hidden;
+		}
+		
+		
+}
+
+
+/* Landscape tablets and ipad */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+  
+  
 }
 
 
