@@ -42,7 +42,8 @@ print render($page['temporaryhomepage']);
 
 		<div class="row" style="margin-left:0px !important;">
 			  <div class="w3-half" style="margin-bottom:10px">
-			 <a href="https://ols.oir.qld.gov.au/signin/" style="color:black"> 
+			 <!--<a href="https://ols.oir.qld.gov.au/signin/" style="color:black"> -->
+			 <a href="/online-services/online-licensing-tool-unavailable" style="color:black"> 
 <button class="w3-button lh_buttons w3-round-large" style="background:#f2e3cb">
 			  <span class="glyphicon glyphicon-pencil lh_glypicon_dark" aria-hidden="true">
 			  </span>
@@ -53,7 +54,7 @@ print render($page['temporaryhomepage']);
 			  
 			  
 			 <div class="w3-half" style="margin-bottom:10px">
-			  <a href="https://ols.oir.qld.gov.au/licence-register/search/" class="lh_glyph_fal" style="color:#fff"> <button class="w3-button lh_buttons  w3-round-large" style="background:#000">
+			 <!-- <a href="https://ols.oir.qld.gov.au/licence-register/search/" class="lh_glyph_fal" style="color:#fff"> --><a href="online-services/online-licensing-tool-unavailable" class="lh_glyph_fal" style="color:#fff"> <button class="w3-button lh_buttons  w3-round-large" style="background:#000">
 			  <span class="glyphicon glyphicon-search lh_glypicon" aria-hidden="true"></span>
 			  <span class="glyphtext">Find a licensed labour hire service</span>
 			   </button></a></div>
@@ -69,7 +70,7 @@ print render($page['temporaryhomepage']);
 			  
 			  
 			  <div class="w3-half">
-			 <a href="/subscribe" style="color:black">  <button class="w3-button lh_buttons w3-round-large" style="background:#a6d4d6">
+			 <a href="/resources/subscribe" style="color:black">  <button class="w3-button lh_buttons w3-round-large" style="background:#a6d4d6">
 			  <span class="glyphicon glyphicon-envelope lh_glypicon_dark" aria-hidden="true"></span>
 			  <span class="glyphtext">Subscribe to the labour hire newsletter</span>
 			   </button></a></div>
