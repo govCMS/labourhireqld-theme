@@ -528,7 +528,7 @@ input[type="radio"] {
   padding: 0;
   
 }
-  /* 2 */
+  /* 2 */(min-width:768)
 }
 
 #myForm > input[type="radio"]{
@@ -2050,6 +2050,7 @@ form#sweaver-frontend > div {
   display: inline-block;
   font-size: 0.92308em;
   line-height: 1.51667em;
+  float: right;
 }
 @media (min-width: 980px) {
   .search-form .form-submit {
@@ -2799,7 +2800,7 @@ footer .block {
 
 @media (max-width:971px) and (min-width:0px){
   #clockdiv{
-  display:!important none;
+  
   }
 }
 
@@ -3973,7 +3974,7 @@ h3.iam_homepage_title > a:hover{
 
 .smalltext{
   padding-top: 5px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 
@@ -4056,9 +4057,23 @@ background: #f2e3cb;
 
 .lh_home_overlay_content > p {
  color:#fff; 
- 
 
 }
+p.lh_overlay_txt{
+	font-size: 13px;
+    position: absolute;
+    margin-left: 541px;
+    color: #fff;
+    margin-top: 277px;
+    font-weight: bold;
+    background: black;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 8px
+	
+}
+
 .owl-pagination{
   margin-top:-20px;
 }
@@ -4084,10 +4099,56 @@ background: #f2e3cb;
 
 
 
-
 /* ==========================================================================
    MEDIA QUERIES
    ========================================================================== */
+   
+ @media (max-width:1024) and (min-width:768)  {
+	 
+	#lh_report{
+	margin-right: 10px;
+	}
+	#lh_sub{
+		
+	}
+
+	#lh_find{
+		
+	}
+	#lh_apply{
+		margin-right: 10px;
+	}
+	
+	 
+	 #clockdiv {
+		    font-family: sans-serif;
+    color: #000;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    z-index: 100;
+    width: 375px;
+    top: -55px;
+    left: 310px !important;
+ }  
+ 
+p.lh_overlay_txt {
+    font-size: 13px;
+    position: absolute;
+    margin-left: 380px !important;
+    color: #fff;
+    margin-top: 257px;
+    font-weight: bold;
+    background: black;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 8px;
+}
+ 
+ }
 
 @media (max-width: 719px) {
   .header .block-search,
@@ -4116,10 +4177,43 @@ background: #f2e3cb;
 
 /* Portrait iPad and tablets */
 @media only screen 
-  and (min-device-width: 767px) 
+  and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) {
+	  
+	  #lh_report{
+	margin-right: 10px;
+	}
+	#lh_sub{
+		
+	}
+
+	#lh_find{
+		
+	}
+	#lh_apply{
+		margin-right: 10px;
+	}
+	
+	 
+	 #clockdiv {
+		   display:none;
+ }  
+	  
+	 p.lh_overlay_txt {
+    font-size: 13px;
+    position: absolute;
+    margin-left: 380px !important;
+    color: #fff;
+    margin-top: 257px;
+    font-weight: bold;
+    background: black;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 8px;
+}
 		
 		.w3-col.m6, .w3-half {
 			width: unset !important;
@@ -4161,12 +4255,32 @@ background: #f2e3cb;
   and (-webkit-min-device-pixel-ratio: 1) {
 
   
-  
 }
 
 
 
 @media (max-width:375px){
+	
+	#myForm{
+		white-space:unset;
+		margin-left: 20px;
+	}  
+
+	
+	p.lh_overlay_txt {
+    font-size: 13px;
+    position: absolute;
+    color: #fff;
+    margin-top: 402px;
+    font-weight: bold;
+    background: black;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 8px;
+    margin-left: 0px;
+}
+	
 	
 	.lh_help_menu{
 		
@@ -4291,25 +4405,26 @@ background: #f2e3cb;
 @media (min-width:1300px){
 #clockdiv{
   font-family: sans-serif;
-  color: #000;
-  display: inline-block;
-  font-weight: 100;
-  text-align: center;
-  font-size: 20px;
-  position: relative;
+    color: #000;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
     z-index: 100;
-      width: 375px;
-    top: -55px;
-    left: 455px;}
+    width: 375px;
+    top: -33px;
+    left: 485px;
+}
 #clockdiv > div{
-  padding: 10px;
-  border-radius: 3px;
-  background: #f2e3cb; /** #00BF96**/
-  display: inline-block;
+     padding: 7px;
+    border-radius: 3px;
+    background: #f2e3cb;
+    display: inline-block;
 }
 
 #clockdiv div > span{
-  padding: 15px;
+  padding: 12px;
   border-radius: 3px;
   background: #000; /* #00816A */
   display: inline-block;
