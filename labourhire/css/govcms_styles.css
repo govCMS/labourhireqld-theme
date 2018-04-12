@@ -4103,6 +4103,15 @@ p.lh_overlay_txt{
    MEDIA QUERIES
    ========================================================================== */
    
+   
+  @media (max-width:1280px) and (min-width;1024px){
+		p.lh_overlay_txt {
+		margin-top: 257px;
+		
+	}
+		
+  }
+   
  @media (max-width:1024) and (min-width:768)  {
 	 
 	#lh_report{
@@ -4121,34 +4130,20 @@ p.lh_overlay_txt{
 	
 	 
 	 #clockdiv {
-		    font-family: sans-serif;
-    color: #000;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 20px;
-    position: relative;
-    z-index: 100;
-    width: 375px;
+   
     top: -55px;
     left: 310px !important;
  }  
  
 p.lh_overlay_txt {
-    font-size: 13px;
-    position: absolute;
+    
     margin-left: 380px !important;
-    color: #fff;
     margin-top: 257px;
-    font-weight: bold;
-    background: black;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 6px;
-    padding-right: 8px;
 }
  
  }
+ 
+
 
 @media (max-width: 719px) {
   .header .block-search,
@@ -4174,6 +4169,25 @@ p.lh_overlay_txt {
     clear: none;
   }
 }
+
+
+/*** laptop ***/
+@media (max-width:1280px) and (min-width:950px){
+	
+	#clockdiv {
+    
+    left: 465px !important;
+	
+	}
+	p.lh_overlay_txt{
+	margin-top: 248px !important;
+	}
+	
+}
+
+
+
+
 
 /* Portrait iPad and tablets */
 @media only screen 
@@ -4202,17 +4216,7 @@ p.lh_overlay_txt {
  }  
 	  
 	 p.lh_overlay_txt {
-    font-size: 13px;
-    position: absolute;
-    margin-left: 380px !important;
-    color: #fff;
-    margin-top: 257px;
-    font-weight: bold;
-    background: black;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 6px;
-    padding-right: 8px;
+display:none;	
 }
 		
 		.w3-col.m6, .w3-half {
@@ -4247,18 +4251,61 @@ p.lh_overlay_txt {
 }
 
 
+/* iphone X */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) { 
+
+}
+
+
 /* Landscape tablets and ipad */
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 1) {
-
+	p.lh_overlay_txt{
+		font-size: 13px;
+		position: absolute;
+		margin-left: 341px;
+		color: #fff;
+		margin-top: 257px;
+		font-weight: bold;
+		background: black;
+		padding-top: 4px;
+		padding-bottom: 4px;
+		padding-left: 6px;
+		padding-right: 8px;
+	  }
+	  
+#content{
+		max-width:450px !important;
+		}
+  #main > aside.sidebars.lh_rightcol.lh_no_print{
+	  max-width:200px;
+  }
   
+  .region-righthandsidelinks {
+	max-width:200px;
+    min-width: 200px;	
+  }
 }
 
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
 
+.region-sidebar-second{
+	width:100%;
+}
+.lh_rightcol {
+    margin-right: 20px;
+    max-width: unset;
+    float: right;
+    width: 95%;
 
+}
+}
 @media (max-width:375px){
 	
 	#myForm{
@@ -4434,44 +4481,7 @@ p.lh_overlay_txt {
 }
 
 
-@media (max-width:1299px) and (min-width:900px){
-#clockdiv{
-  font-family: sans-serif;
-  color: #000;
-  display: inline-block;
-  font-weight: 100;
-  text-align: center;
-  font-size: 20px;
-  position: relative;
-    z-index: 100;
-      width: 375px;
-    top: -55px;
-    left: 255px;
-  }
-#clockdiv > div{
-  padding: 10px;
-  border-radius: 3px;
-  background: #f2e3cb; /** #00BF96**/
-  display: inline-block;
-}
 
-#clockdiv div > span{
-  padding: 15px;
-  border-radius: 3px;
-  background: #000; /* #00816A */
-  display: inline-block;
-  color:#fff
-}
-
-.lh_buttons {
-    width: 130px;
-    height: 130px;
-  }
-
-  .glyphtext {
-    font-size: 16px;
-  }
-}
 
 
 
@@ -4577,3 +4587,47 @@ ul.lh_alpha {
 	    border: 1px solid #ccc!important;
 }
 
+/* ==========================================================================
+   MEDIA QUERIES
+   ========================================================================== */
+
+
+ @media (max-width:1299px) and (min-width:900px){
+#clockdiv{
+  font-family: sans-serif;
+  color: #000;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+    z-index: 100;
+      width: 375px;
+    top: -55px;
+   left: 300px;
+  }
+#clockdiv > div{
+  padding: 10px;
+  border-radius: 3px;
+  background: #f2e3cb; /** #00BF96**/
+  display: inline-block;
+}
+
+#clockdiv div > span{
+  padding: 15px;
+  border-radius: 3px;
+  background: #000; /* #00816A */
+  display: inline-block;
+  color:#fff
+}
+
+.lh_buttons {
+    width: 130px;
+    height: 130px;
+  }
+
+  .glyphtext {
+    font-size: 16px;
+  }
+} 
+   
