@@ -665,7 +665,7 @@ table {
 @media (min-width: 720px) {
   #content {
     float: left;
-    max-width: 750px;
+    max-width: 650px;
     margin-left:10px;
   }
 }
@@ -697,6 +697,8 @@ table {
     float: left;
     width: 230px;
   }
+  
+  
 }
 .lt-ie9 .region-sidebar-second {
   float: right;
@@ -1280,6 +1282,7 @@ div.owl-item > div > i:hover{
 .menu-block-wrapper.menu-block-govcms_menu_block-sidebar.menu-name-main-menu.menu-level-2 > ul >li{
   background:none;
   color:#000;
+ 
 }
 
 .sf-menu > li > ul > li > ul > li {
@@ -4196,7 +4199,15 @@ p.lh_overlay_txt {
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) {
 	  
-	  #lh_report{
+	 .block__title {
+		max-width:230px; 
+	 }
+	  
+	.menu-block-govcms_menu_block-sidebar{
+		max-width:230px;
+	}
+	  
+#lh_report{
 	margin-right: 10px;
 	}
 	#lh_sub{
@@ -4214,6 +4225,7 @@ p.lh_overlay_txt {
 	 #clockdiv {
 		   display:none;
  }  
+
 	  
 	 p.lh_overlay_txt {
 display:none;	
@@ -4256,6 +4268,12 @@ display:none;
 
 }
 
+@media (max-width:768px;){
+	.sidebars{
+			display:none;
+		  
+	  }
+}
 
 /* Landscape tablets and ipad */
 @media only screen 
@@ -4295,9 +4313,8 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) 
 and (orientation : portrait) { 
 
-.region-sidebar-second{
-	width:100%;
-}
+
+
 .lh_rightcol {
     margin-right: 20px;
     max-width: unset;
