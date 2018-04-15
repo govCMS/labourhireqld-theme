@@ -35,8 +35,8 @@ if (drupal_is_front_page()) {
     <meta name="viewport" content="width=device-width">
   <?php endif; 
 if (drupal_is_front_page()) {
-    ?> <meta name="Labour hire licensing Queensland" content="Labour hire licensing Queensland, managed by the Office of Industrial Relations, Queensland Government, is the official site for the regulation of the labour hire industry in Queensland">
-    <meta name="description" content=" labour hire; labour hire licencing act 2017; laws; legislation; Queensland"><?php
+    ?> <meta name="description" content="Labour hire licensing Queensland, managed by the Office of Industrial Relations, Queensland Government, is the official site for the regulation of the labour hire industry in Queensland">
+    <meta name="keywords" content="labour hire, labour hire licencing act 2017, laws, legislation; Queensland"><?php
 }
   ?>
 <meta http-equiv="cleartype" content="on">
