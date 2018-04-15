@@ -5,7 +5,7 @@
  *
  */
 ?>
-<!-- temp-->
+
 <!-- JS -->
 
 
@@ -49,7 +49,6 @@ $113(document).ready(function(){
 </style>
 
 
-<!-- end temp -->
 <?php 
 if($page['labourhirealerts']){ print render($page['labourhirealerts']);} ?>
 <div class="wrapper_header">
@@ -69,7 +68,7 @@ if($page['labourhirealerts']){ print render($page['labourhirealerts']);} ?>
           'heading' => array(
             'text' => isset($secondary_menu_heading) ? $secondary_menu_heading : '',
             'level' => 'h2',
-            'class' => array('element-invisible'),
+            'class' => array('element-invisible','menu_h2'),
           ),
         )); ?>
 
@@ -85,13 +84,13 @@ if($page['labourhirealerts']){ print render($page['labourhirealerts']);} ?>
 <div class="header__region region region-header lh_no_print">
 <div id="block-search-api-page-default-search" class="block block-search-api-page last even" style="">    
   <div class="block__content lh_search_block">
-
+<!--
 <form id="myForm" class="lh_no_print">Search
 <input type="radio" name="myRadio" value="SearchThisSite" /> this website
 <input type="radio" name="myRadio" value="SearchAllGov" /> all Queensland Government
 </form>
 
-
+-->
 
 
   

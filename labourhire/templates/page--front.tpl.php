@@ -39,8 +39,8 @@ print render($page['temporaryhomepage']);
 
 		<div class="row" style="margin-left:0px !important;">
 			  <div class="w3-half" style="margin-bottom:10px" >
-			 <!--<a href="https://ols.oir.qld.gov.au/signin/" style="color:black"> -->
-			 <a href="/online-services/online-licensing-tool-unavailable" style="color:black"> 
+			 <a href="https://ols.oir.qld.gov.au/signin/" style="color:black"> 
+			
 <button class="w3-button lh_buttons w3-round-large" style="background:#f2e3cb" id="lh_apply">
 			  <span class="glyphicon glyphicon-pencil lh_glypicon_dark" aria-hidden="true">
 			  </span>
@@ -51,7 +51,7 @@ print render($page['temporaryhomepage']);
 			  
 			  
 			 <div class="w3-half" style="margin-bottom:10px">
-			 <!-- <a href="https://ols.oir.qld.gov.au/licence-register/search/" class="lh_glyph_fal" style="color:#fff"> --><a href="/online-services/online-licensing-tool-unavailable" class="lh_glyph_fal" style="color:#fff"> <button class="w3-button lh_buttons  w3-round-large" style="background:#000" id="#lh_find">
+			 <a href="https://ols.oir.qld.gov.au/licence-register/search/" class="lh_glyph_fal" style="color:#fff">  <button class="w3-button lh_buttons  w3-round-large" style="background:#000" id="#lh_find">
 			  <span class="glyphicon glyphicon-search lh_glypicon" aria-hidden="true"></span>
 			  <span class="glyphtext">Find a licensed labour hire service</span>
 			   </button></a></div>
@@ -96,10 +96,6 @@ $113('#owl-demo').owlCarousel({
     nav: true
 });
 
-
-
-
-
 });
 
 </script>
@@ -111,8 +107,6 @@ $113('#owl-demo').owlCarousel({
 
 #print render($foo);
 
-
-  
 #print render($page['labourhirehomenewscaro']); ?>
   </div>
           </div>
@@ -175,7 +169,7 @@ function initializeClock(id, endtime) {
 //var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
 //Date.UTC(year, month[, day[, hour[, minute[, second[, millisecond]]]]])
 
-var deadline =  new Date('June 15, 2018, 23:59:59 GMT+11:00');
+//var deadline =  new Date('June 15, 2018, 23:59:59 GMT+11:00');
 var deadline = new Date('2018-06-16T00:00:00');
 initializeClock('clockdiv', deadline);
     </script> 
