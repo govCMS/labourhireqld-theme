@@ -4647,4 +4647,11 @@ ul.lh_alpha {
     font-size: 16px;
   }
 } 
-   
+    a.lh_a_actions{
+	   
+	   text-decoration:none !important;
+	   color:#1D2C45;
+   }
+   a.lh_a_actions:hover{
+	  text-decoration:underline !important;
+   }
