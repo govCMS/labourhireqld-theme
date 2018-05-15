@@ -73,7 +73,7 @@ print render($page['temporaryhomepage']);
 			   </button></a></div>
 		</div>
 	
- <div class="row" style="margin-left:0px !important"><p style="float:left;vertical-align:bottom;font-weight:bold "><a href="https://www.labourhire.qld.gov.au/online-services" style="text-decoration:none;color:#000">Online services</a> | <a href="https://ols.oir.qld.gov.au/applications-register/" style="text-decoration:none;color:#000"> Pending applications</a></p></div>
+ <div class="row" style="margin-left:0px !important"><p style="float:left;vertical-align:bottom;font-weight:bold "><a href="https://www.labourhire.qld.gov.au/online-services" style="text-decoration:none;color:#000">Online services</a> | <a href="https://ols.oir.qld.gov.au/applications-register/" style="text-decoration:none;color:#000"> Pending applications</a> | <a href="https://ols.oir.qld.gov.au/licence-register/" style="text-decoration:none;color:#000">Public Register</p></div>
 
 			
           </div><!-- end w3 container -->
