@@ -22,7 +22,7 @@
       <div class="w3-row-padding" style="margin-left: 15px;margin-right: 15px;padding:0">
         <div class="w3-container w3-twothird lh-carousel-container">
         <div id="lh_home_carousel">   
-	<p class="lh_overlay_txt">Time left to apply for your licence</p>
+	
 
 
 
