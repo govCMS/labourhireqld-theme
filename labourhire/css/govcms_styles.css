@@ -4073,7 +4073,8 @@ p.lh_overlay_txt{
     padding-top: 4px;
     padding-bottom: 4px;
     padding-left: 6px;
-    padding-right: 8px
+    padding-right: 8px;
+    display:none;
 	
 }
 
