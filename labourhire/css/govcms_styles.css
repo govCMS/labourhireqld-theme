@@ -4180,11 +4180,12 @@ p.lh_overlay_txt {
 	
 	#clockdiv {
     
-    left: 465px !important;
+    		left: 465px !important;
+		display:none;
 	
 	}
 	p.lh_overlay_txt{
-	margin-top: 248px !important;
+	margin-top: 248px !important;display:none;
 	}
 	
 }
