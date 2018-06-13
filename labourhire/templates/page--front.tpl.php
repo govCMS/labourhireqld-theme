@@ -24,7 +24,7 @@
         <div id="lh_home_carousel">
 <?php 
 //print render($page['featured_carousel']);  
-print render($page['temporaryhomepage']);
+#print render($page['temporaryhomepage']);
   /*print render($page['labourhirebuttons']);*/ ?>
 
 </div><!-- end lh_home_carousel -->
