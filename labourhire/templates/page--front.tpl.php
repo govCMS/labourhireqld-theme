@@ -21,11 +21,7 @@
       <a id="main-content"></a>
       <div class="w3-row-padding" style="margin-left: 15px;margin-right: 15px;padding:0">
         <div class="w3-container w3-twothird lh-carousel-container">
-        <div id="lh_home_carousel">   
-	
-
-
-
+        <div id="lh_home_carousel">
 <?php 
 //print render($page['featured_carousel']);  
 print render($page['temporaryhomepage']);
