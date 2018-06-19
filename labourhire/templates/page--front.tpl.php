@@ -110,7 +110,7 @@ $113('#owl-demo').owlCarousel({
 <div class="w3-container" style="margin-left:-15px;margin-right:-15px;margin-top:-30px;">
 <?php
 
-#print render($foo);
+print render($foo);
 
 #print render($page['labourhirehomenewscaro']); ?>
   </div>
