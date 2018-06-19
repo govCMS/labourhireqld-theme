@@ -54,7 +54,7 @@ $query = db_select('node','n')
           ->fields('n',array('title','nid','created','type'))
           ->fields('fdb',array('body_summary'))
           ->fields('fdi',array('field_date_issued_value'))
-	  ->orderBy('created','DESC'),
+	  ->orderBy('created','DESC')
           ->range(0,6);
 $db_or = db_or();
 $db_or->condition('n.type',$dtype,'=');
