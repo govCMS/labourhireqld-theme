@@ -61,7 +61,7 @@ $db_or->condition('n.type',$dbtype3,'=');
 $query->condition($db_or);
 $query->join('field_data_body','fdb','n.nid=fdb.entity_id');
 $query->leftjoin('field_data_field_date_issued','fdi','n.nid=fdi.entity_id');
-$query->->orderBy('created','DESC');	
+$query->orderBy('created','DESC');	
 
 
 $results = $query->execute()->fetchAll();
