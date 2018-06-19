@@ -20,7 +20,6 @@ function labourhire_preprocess_html(&$vars) {
 
 /**
  * Implements hook_form_alter().
- Update search placeholder text
  */
 function labourhire_form_search_block_form_alter(&$form, &$form_state, $form_id) {
 	$form['search_block_form']['#attributes']['placeholder'] = t('Search'); 
@@ -54,7 +53,6 @@ $query = db_select('node','n')
           ->fields('n',array('title','nid','created','type'))
           ->fields('fdb',array('body_summary'))
           ->fields('fdi',array('field_date_issued_value'))
-	  ->orderBy('created','DESC')
           ->range(0,6);
 $db_or = db_or();
 $db_or->condition('n.type',$dtype,'=');
@@ -63,6 +61,7 @@ $db_or->condition('n.type',$dbtype3,'=');
 $query->condition($db_or);
 $query->join('field_data_body','fdb','n.nid=fdb.entity_id');
 $query->leftjoin('field_data_field_date_issued','fdi','n.nid=fdi.entity_id');
+$query->->orderBy('created','DESC');	
 
 
 $results = $query->execute()->fetchAll();
