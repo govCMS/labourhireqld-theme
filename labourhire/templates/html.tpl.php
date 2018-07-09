@@ -100,8 +100,8 @@ src="https://www.facebook.com/tr?id=1460593107586147&ev=PageView&noscript=1"
 <!-- DO NOT MODIFY -->
 <!-- End Facebook Pixel Code -->
 
-
-
+<!-- google captcha code -->
+<script src='https://www.google.com/recaptcha/api.js'></script>
 
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
