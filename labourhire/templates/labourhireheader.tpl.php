@@ -40,7 +40,7 @@ $113(document).ready(function(){
 	
   }); //end document ready
 </script>
-
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <!-- CSS -->
 <style>
   .accordion-toggle {cursor: pointer;}
