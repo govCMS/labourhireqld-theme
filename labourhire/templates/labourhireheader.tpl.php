@@ -42,7 +42,7 @@ $113(document).ready(function(){
 	
 $113(document).ready(function($) {   
 $113('.webform-component--you-are-a').append('<div class="g-recaptcha" data-sitekey="6LehAmMUAAAAACxGLV0Qj7NPznYhChcl8ZkkDM0U"></div>');
-//$113('.webform-component--how-did-you-find-out-about-the-issue-youre-reporting').append('<div class="g-recaptcha" data-sitekey="6LehAmMUAAAAACxGLV0Qj7NPznYhChcl8ZkkDM0U"></div>');
+$113('.webform-component--how-did-you-find-out-about-the-issue-youre-reporting').append('<div class="g-recaptcha" data-sitekey="6LehAmMUAAAAACxGLV0Qj7NPznYhChcl8ZkkDM0U"></div>');
 	
 }); //end document ready	
 	
