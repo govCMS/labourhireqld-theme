@@ -64,8 +64,15 @@ function googleTranslateElementInit() {
         <a class="close" href="#">X</a>
         <p class="title" id="dialog-title"></p>
         <div class="content">
+	<!-- start catptcha display in modal -->
+	<script>
+	$113(document).ready(function(){
+	$113('.lh_web_feedback_form_email').after('<div class="g-recaptcha" data-sitekey="6LehAmMUAAAAACxGLV0Qj7NPznYhChcl8ZkkDM0U"></div>'); 
+	}); //end document ready
+	</script>
+	<!-- end captcha display in modal -->
+		
            <?php 
-
             print render($page['footerfeedback']);
            ?>
         </div>
@@ -89,7 +96,7 @@ function googleTranslateElementInit() {
 
 $113(document).ready(function(){
     $113('.lightbox').draggable();
-	alert('pop');
+	//alert('pop');
 });
 
 </script>
